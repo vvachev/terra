@@ -1,0 +1,216 @@
+
+
+
+
+#phones_mobile {
+display:none;
+}
+.mm-fixed-top {
+width: 100%;
+height: 50px;
+z-index: 5;
+display: block;
+background-color: #000;
+position: absolute;
+padding: 0 50px;
+color: #fff;
+text-align: center;
+font-size: 2em;
+background: #333 url(img/menu.png ) 10px center no-repeat; 
+line-height: 50px;
+display:none;
+}
+.fbimage  {
+height:20px;
+}
+/* #Media Queries================================================== */
+
+
+/* Mobile Portrait */
+@media only screen and (max-width:899px) {/* 899 is for easier browser testing! 479px or 481 to catch landscape mode */
+
+#header, #content, body, html , .device, #header ul, #home, #contacts, #services, #prices, #gallery, .swiper-container, .swiper-slide img{
+width:100%;
+margin:0px;
+padding:0px;
+}
+
+.mm-fixed-top, phones_mobile {
+display:block;
+}
+.mainmenu, .pagination, #phones, .leftbtn, .rightbtn {
+display:none;
+}
+
+
+#logo {
+top:55px;
+left: 50%;
+margin-left: -45px;
+}
+#header {
+min-height:195px;
+}
+.device {
+height:170px;
+}
+.slogan {
+padding:10px;
+}
+#home li img, #home li img.overeffect { 
+width: 80%;
+padding: 0 10%;
+}
+#home li {
+width:100%;
+margin-top:15px;
+}
+#home li > div {
+padding: 0 10%;
+}
+.swiper-slide {
+height:auto;
+}
+.swiper-container {
+width:100%;
+}
+#home li img.overeffect, .slogan {
+width: 80% !important;
+padding: 0 10% !important;
+}
+
+/*litov*/
+#logo img {
+width: 80%;
+}
+#logo {
+left: 10%;
+margin-left: 0;
+}
+/*litov*/
+/*portfolio*/
+.portfolio, .sidemenu {
+width:100%;
+}
+.arrow-down {
+margin-left:50%;
+}
+.pflist li {
+width:100%;
+height:auto;
+}
+.pflist li img {
+width:80%;
+height:auto;
+padding: 0 10%;
+}
+.info_text.lc, .info_text.rc, .advlist, .advlist.second, .popup .txt {
+width:80%;
+padding:0 10% !important;
+}
+/*advertising*/
+.advlist.second {
+padding: 10% !important;
+}
+.sidemenu li {
+text-align: center;
+width: 100%;
+padding: 9px 0px;
+}
+.advlist li, .advlist li img {
+width:100% !important;
+margin-left:0px;
+height:auto;
+}
+.advlist li span.zaglavqnka {
+display:block !important;
+}
+.productslist.advlist li img {
+height:auto;
+}
+.map {
+width: 90%;
+overflow: hidden;
+padding: 0 5%
+}
+.map iframe {
+width: 100%;
+}
+.popup {
+top: 196px;
+height: 1000px;
+}
+.popup img {
+margin-top: 45px;
+width:60%;
+padding:0 20%;
+height:auto;
+margin-bottom:10px;
+}
+
+
+
+}/* Mobile Portrait */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/* Tablets and stuff  NOT USED YET*/
+@media only screen and(min-width:480px) and (max-width:899px) { 
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width:801px) and (max-width:1199px) {
+  
+
+    }
+
+/* All Mobile Sizes (DEVICES) */
+@media only screen and (max-width:900px) {
+
+
+}/* All Mobile Sizes (DEVICES) */
+  
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width:768px) {
+
+
+}/* All Mobile Sizes (devices and browser) */
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+}/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
